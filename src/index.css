@@ -1,0 +1,318 @@
+/* Navmain page---------------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .sidebar-content {
+    width: 100%; /* Full width on mobile */
+  }
+
+  .navbar {
+    flex-direction: column; /* Stack items on small screens */
+  }
+
+  .menu-button {
+    margin-bottom: 1px; /* Spacing below the button */
+}
+
+  }
+
+
+/* Header container */
+.Navmain-content {
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Adjust padding as needed */
+  z-index: 1000;
+  background-color: #fff; /* Adjust background color as needed */
+  border-bottom: 1px solid #ddd; /* Optional border */
+}
+
+
+/* Menu Icon on the Left */
+
+
+.menu-icon {
+  height: 24px; /* Adjust size as needed */
+  cursor: pointer;
+  display: flex;
+  background-color: #000000;
+  align-items: center;
+}
+
+/* Logo in the Center */
+.logo1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-10%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #000; /* Adjust text color as needed */
+}
+
+.logo1-icon {
+  height: 40px; /* Adjust the size of the logo icon as needed */
+  justify-content: space-between;
+
+}
+
+
+/* Icons on the Right Side */
+.icon-box {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between the icons */
+}
+
+.icon-1 {
+  height: 24px; /* Adjust size as needed */
+  cursor: pointer;
+}
+
+.menu-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+
+/* ------------------------------hero----------------- */
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  
+}
+
+
+
+
+
+
+
+
+/* General Styles */
+.app {
+font-family: Arial, sans-serif;
+width: 290px;
+background-color:white;
+}
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #0b63c7; /* White background for navbar */
+  border-bottom: 2px solid #ddd; /* Bottom border */
+
+  z-index: 1000;
+}
+/* Back Button Styles */
+.back-button {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+
+/* Base Search Bar Styling */
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+
+/* Focused State */
+.search-bar:focus-within {
+border:2px solid  #000; /* Black border when input is focused */
+flex:auto;
+border-radius: 3px;
+
+}
+.search-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+}
+
+.search-icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+
+
+/* Sidebar Styles */
+.sidebar-content {
+  width: 300px;
+  padding: 10px;
+  background-color: #fff; /* White background for sidebar */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  position: absolute;
+  top: 60px; /* Below the navbar */
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.separator {
+margin: 10px 0;
+}
+
+
+.product-item, .brand-item, .model-item {
+padding: 10px;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-weight: bold;
+}
+
+.product-item:hover, .brand-item:hover, .model-item:hover {
+  background-color: #f0f0f0; /* Light gray on hover */
+}
+
+
+.brands-heading {
+margin-top: 20px;
+font-size: 18px;
+font-weight: bold;
+color: #333;
+}
+/* Card Page Styles */
+.card-page {
+  padding: 20px;
+  background-color: #fff; /* White background */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+
+.model-image {
+max-width: 100%;
+height: 50px !important;
+opacity: 0.8;
+max-width: 100%;
+image-rendering: auto;
+} 
+
+.model-name {
+font-size: 24px;
+font-weight: bold;
+}
+
+
+
+/* Models.css----------------------------------- */
+.model-list {
+list-style: none;
+padding: 0;
+}
+
+
+  /* index.css */
+  .modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure modal is on top */
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+  }
+.model-item {
+padding: 10px;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.model-item:hover {
+background-color: #867b7b;
+}
+
+/* extra Brands.css */
+.brand-list {
+list-style: none;
+padding: 0;
+}
+
+.brand-item {
+padding: 10px;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.brands-heading {
+margin-top: 20px;
+font-size: 18px;
+font-weight: bold;
+color: #615f5f;
+}
+
+.additional-brands {
+margin-top: 20px;
+}
+
+.additional-brands .brand-item {
+display: flex;
+align-items: center;
+margin-bottom: 15px;
+cursor: pointer;
+}
+
+.additional-brands .brand-item img {
+width: 60px; /* Adjust size as needed */
+height: auto;
+margin-left: 10px;
+}
+
+
+
+@media screen and (min-width:768px) {
+
+.menu-button{
+  display: none;
+  border: none;
+  border-radius: 0.375rem;
+  transform: all 0.1s;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5rem 0.9rem;
+}
+}
+
+   

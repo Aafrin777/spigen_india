@@ -1,0 +1,164 @@
+
+
+/* ------------------------------Layer1 css
+*/
+/* Layer Styles */
+
+#Layer1-section {
+  position: relative;
+  text-align: center;
+}
+
+
+
+.Layer1-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .layer1-image{
+    width: 100%;
+    height: auto;
+  }
+  
+  #layer1-button {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 10px;
+  }
+  
+  
+  
+  #layer1-button:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  
+  
+  
+  
+  /* ------------------------------Layer2 ---- */
+  
+  .Layer2-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .layer2-image{
+    width: 100%;
+    height: auto;
+  }
+  
+  #layer2-button {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 10px;
+  }
+  
+  
+  
+  #layer2-button:hover {
+    background: rgba(145, 10, 10, 0.8);
+  }
+  
+  
+  #Layer2-section {
+    position: relative;
+    text-align: center;
+  }
+  
+  #Layer2-headline {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.4rem; /* Mid-size headline */
+    font-weight:15px ;
+    margin: 0;
+  }
+  
+
+   
+  
+  /* ------------------------------Layer4 ---- */
+  
+  .Layer4-container,
+  .Layer4-container,
+  .Layer6-container,
+  .Layer7-container,
+  .Layer8-container,
+  .Layer9-container,
+  .Layer10-container
+   {
+    position: relative;
+    text-align: center;
+  }
+  
+
+  .layer2-image,
+  .layer3-image,
+  .layer4-image,
+  .layer5-image,
+  .layer6-image,
+  .layer7-image,
+  .layer8-image,
+  .layer9-image,
+  .layer10-image{
+    width: 100%;
+    height: auto;
+  }
+  
+  #layer4-button,
+  #layer5-button,
+  #layer6-button,
+  #layer7-button,
+  #layer8-button,
+  #layer9-button,
+  #layer10-button
+   {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 10px;
+  }
+  
+  
+  
+  #layer4-button:hover {
+    background: rgba(145, 10, 10, 0.8);
+  }
+  
+  
+  #Layer4-section,
+  #Layer5-section,
+  #Layer6-section,
+  #Layer7-section,
+  #Layer8-section,
+  #Layer9-section,
+  #Layer10-section
+   {
+    position: relative;
+    text-align: center;
+  }
+  
+  #Layer4-headline {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.4rem; /* Mid-size headline */
+    font-weight:15px ;
+    margin: 0;
+  }
+  

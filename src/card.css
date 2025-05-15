@@ -1,0 +1,80 @@
+/* card.css */
+
+.card-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.card-page {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: white;
+  padding: 20px;
+  max-width: 50%;
+  width: 50%;
+  text-align: center;
+}
+
+.card-model-image {
+  max-width: 50%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.card-real-price, .card-discount-price {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.card-color-options {
+  margin: 20px 0;
+}
+
+.card-color-circles {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.color-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.color-circle.selected {
+  border-color: #000; /* Highlight selected color with a border */
+}
+
+.add-to-cart {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #0056b3;
+}
+
+.default-card {
+  border: 1px solid #ddd;
+}
+
+.default-card img {
+  max-width: 80%;
+  margin: 10px 0;
+}
+
+.default-card p {
+  font-style: italic;
+}
